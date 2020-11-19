@@ -57,7 +57,7 @@ public class Main {
     public static void makePostRequest() throws MalformedURLException, IOException{
         String message = "Hello servlet";
         byte[] body = message.getBytes(StandardCharsets.UTF_8);
-        URL myURL = new URL("http://localhost:8080/MyServlet/patients");
+        URL myURL = new URL("http://localhost:8080/week5-6eliasrabbat/patients");
         HttpURLConnection conn = null;
         conn = (HttpURLConnection) myURL.openConnection();
         // Set up the header
